@@ -1,0 +1,16 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.routes a{
+    text-decoration: none;
+    font-size: bold;
+}
+
+.nav img{
+    margin-left: 40px;
+}
+
+.routes{
+    margin-right: 50px;
+}
