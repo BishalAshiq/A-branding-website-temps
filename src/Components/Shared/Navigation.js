@@ -7,16 +7,16 @@ const Navigation = () => {
     return (
         <div>
             <div className='nav'>
-            <img src={logo} alt=''/>
+            <h1>BRANDING</h1>
             <Nav className='routes'>
             <Nav.Item>
-                <Nav.Link className='navLink' href="/home">Home</Nav.Link>
+            <Nav.Link className='navLink' href="/home">Home</Nav.Link>
             </Nav.Item>
             <Nav.Item>
                 <Nav.Link className='navLink' eventKey="about">About</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-                <Nav.Link className='navLink' eventKey="contact">Contact</Nav.Link>
+            <Nav.Link className='navLink' eventKey="contact">Contact</Nav.Link>
             </Nav.Item>
             <Nav.Item>
             <Nav.Link className='navLink' eventKey="sign In">Sign In</Nav.Link>
@@ -24,7 +24,7 @@ const Navigation = () => {
             </Nav>
             </div>
             <div>
-            <SearchBox></SearchBox>
+            {/* <SearchBox></SearchBox> */}
             </div>
         </div>
     );
