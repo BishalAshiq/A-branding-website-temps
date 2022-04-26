@@ -21,7 +21,7 @@ const Contact = () => {
                 <FormControl aria-label="First name" />
               </InputGroup>
               <InputGroup className="mb-3">
-                <InputGroup.Text>last name</InputGroup.Text>
+                <InputGroup.Text>Last Name</InputGroup.Text>
                 <FormControl aria-label="Last name" />
               </InputGroup>
 
