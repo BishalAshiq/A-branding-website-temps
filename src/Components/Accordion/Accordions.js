@@ -1,13 +1,13 @@
 import React from "react";
-import { Container } from "react-bootstrap";
+import { Accordion, Container,} from "react-bootstrap";
 
-const Accordion = () => {
+const Accordions = () => {
   return (
     <div>
-      <Container>
-        <Accordion defaultActiveKey="0" flush>
+      <Container className="mt-5">
+        <Accordion defaultActiveKey={["0"]} alwaysOpen>
           <Accordion.Item eventKey="0">
-            <Accordion.Header>Accordion Item #1</Accordion.Header>
+            <Accordion.Header>Want Know About Us</Accordion.Header>
             <Accordion.Body>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -19,7 +19,7 @@ const Accordion = () => {
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="1">
-            <Accordion.Header>Accordion Item #2</Accordion.Header>
+            <Accordion.Header>What Is the Purpose Of the Website</Accordion.Header>
             <Accordion.Body>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -36,4 +36,4 @@ const Accordion = () => {
   );
 };
 
-export default Accordion;
+export default Accordions;
