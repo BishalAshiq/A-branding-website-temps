@@ -1,0 +1,7 @@
+.service:hover{
+    box-shadow: 0 2px 2px 0px rgba(104, 63, 5, 0.798);
+}
+.Service{
+    border-radius: 20px;
+    cursor: pointer;
+}

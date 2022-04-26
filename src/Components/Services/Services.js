@@ -1,49 +1,111 @@
 import React from "react";
-import { Card, CardGroup } from "react-bootstrap";
+import { Card, CardGroup, Container } from "react-bootstrap";
+import './Services.css';
 import image1 from "../../Images/Services/service-2.jpg";
 import image2 from "../../Images/Services/service-1.jpg";
 import image3 from "../../Images/Services/64407.jpg";
+import image4 from "../../Images/Services/service-4.jpg";
+import image5 from "../../Images/Services/service-5.jpg";
+import image6 from "../../Images/Services/service-6.jpg";
 
 const Services = () => {
   return (
-    <div>
+    <div className="mt-4">
+      <h1 style={{color:"#AA5600"}}>What Have You Really Need</h1>
+      <Container className="Services">
       <CardGroup>
-        <Card>
-          <Card.Img style={{width:350, alignItems:"center"}} variant="top" src={image1}/>
-          <Card.Body>
-            
+        <Card className="m-4 service">
+          <Card.Img
+            style={{ width: 323, height: 220, alignItems: "center"}}
+            variant="top"
+            src={image1}
+          />
+          <Card.Body className="m-4">
             <Card.Text>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
+              <strong>Branding The Creative Journey</strong> <br />
+              This very complete program was designed as a series of courses
+              that helps you master your skills in branding, including
+              developing branding strategies, branded content generation, image
+              creation and customer experience.
             </Card.Text>
           </Card.Body>
-          
         </Card>
-        <Card>
-          <Card.Img style={{width:350, height:250, alignItems:"center"}} variant="top" src={image2}/>
-          <Card.Body>
-            
+        <Card className="m-4 service">
+          <Card.Img
+            style={{ width: 323, height: 220, alignItems: "center" }}
+            variant="top"
+            src={image2}
+          />
+          <Card.Body className="m-4">
             <Card.Text>
-              This card has supporting text below as a natural lead-in to
-              additional content.{" "}
+              <strong> Creativity and conditioning</strong> <br />
+              We are the result of society, we are the depositories of society,
+              and we either conform to society or break away. Breaking away from
+              society depends upon our background and conditioning.
             </Card.Text>
           </Card.Body>
-        
         </Card>
-        <Card>
-          <Card.Img style={{width:350, height:250, alignItems:"center"}} variant="top" src={image3}/>
-          <Card.Body>
-            
+        <Card className="m-4 service">
+          <Card.Img
+            style={{ width: 323, height: 220, alignItems: "center" }}
+            variant="top"
+            src={image3}
+          />
+          <Card.Body className="m-4">
             <Card.Text>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This card has even longer content
-              than the first to show that equal height action.
+              <strong>We Must Come To The Point</strong><br/>
+              To find out, your mind must be in a state of creative experience, capable of discovering, which means it must be completely free from all knowledge.
             </Card.Text>
           </Card.Body>
-          
         </Card>
       </CardGroup>
+      <CardGroup>
+        <Card className="m-4 service">
+          <Card.Img
+            style={{ width: 323, height: 220, alignItems: "center" }}
+            variant="top"
+            src={image4}
+          />
+          <Card.Body className="m-4">
+            <Card.Text>
+              <strong>Branding The Creative Journey</strong> <br />
+              This very complete program was designed as a series of courses
+              that helps you master your skills in branding, including
+              developing branding strategies, branded content generation, image
+              creation and customer experience.
+            </Card.Text>
+          </Card.Body>
+        </Card>
+        <Card className="m-4 service">
+          <Card.Img
+            style={{ width: 323, height: 220, alignItems: "center" }}
+            variant="top"
+            src={image5}
+          />
+          <Card.Body className="m-4">
+            <Card.Text>
+              <strong> Creativity and conditioning</strong> <br />
+              We are the result of society, we are the depositories of society,
+              and we either conform to society or break away. Breaking away from
+              society depends upon our background and conditioning.
+            </Card.Text>
+          </Card.Body>
+        </Card>
+        <Card className="m-4 service">
+          <Card.Img
+            style={{ width: 323, height: 220, alignItems: "center" }}
+            variant="top"
+            src={image6}
+          />
+          <Card.Body className="m-4">
+            <Card.Text>
+            <strong>We Must Come To The Point</strong><br/>
+              To find out, your mind must be in a state of creative experience, capable of discovering, which means it must be completely free from all knowledge.
+            </Card.Text>
+          </Card.Body>
+        </Card>
+      </CardGroup>
+      </Container>
     </div>
   );
 };
