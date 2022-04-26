@@ -13,8 +13,9 @@ import SideMenuBar from "./SideMenuBar";
 const Carousels = () => {
   return (
     <div>
-      <Container className="mt-5">
-        <Row>
+        <h1><span style={{color:"#D57008", marginTop:"40px"}}>Templates</span> Items</h1>
+      <Container className="mt-5 pb-5">
+        <Row >
           <Col sm={4}>
            <SideMenuBar></SideMenuBar>
           </Col>
@@ -24,7 +25,7 @@ const Carousels = () => {
               <Carousel.Item>
                 <img className="d-block w-100" src={image1} alt="First slide" />
                 <Carousel.Caption>
-                  <h3>First slide label</h3>
+                  <h2 style={{ color: "#EF087A"}}>InstaGram</h2>
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item>
@@ -35,19 +36,19 @@ const Carousels = () => {
                 />
 
                 <Carousel.Caption>
-                  <h3>Second slide label</h3>
+                  <h2 style={{ color: "#EF087A"}}>Dribble</h2>
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item>
                 <img className="d-block w-100" src={image3} alt="Third slide" />
                 <Carousel.Caption>
-                  <h3>Third slide label</h3>
+                  <h2 style={{ color: "#EF087A"}}>LinkedIn</h2>
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item>
                 <img className="d-block w-100" src={image4} alt="Third slide" />
                 <Carousel.Caption>
-                  <h3>Third slide label</h3>
+                  <h2 style={{ color: "#EF087A"}}>FaceBook</h2>
                 </Carousel.Caption>
               </Carousel.Item>
             </Carousel>

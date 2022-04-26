@@ -11,8 +11,8 @@ import Carousels from "../Banner/Carousels";
 
 const Services = () => {
   return (
-    <div className="mt-4">
-      <h1 style={{ color: "#AA5600" }}>What Have You Really Need</h1>
+    <div className="mt-5">
+      <h1>You <span style={{ color: "#AA5600"}}>Have to Need</span> These Items</h1>
       <Container className="Services">
         <CardGroup>
           <Card className="m-4 service">
