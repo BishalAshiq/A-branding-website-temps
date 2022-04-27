@@ -6,7 +6,7 @@ const Banner = () => {
     <div>
       <Container>
         <div>
-          <Row xs={6} md={12} lg={8}>
+          <Row xs={6} md={12} lg={12}>
             <Col xs={6}>
               <h3 style={{ padding: 90, margin: 40 }}>
                 Brand Are Looking For A Better{" "}

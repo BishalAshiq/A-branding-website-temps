@@ -24,7 +24,7 @@ const Navigation = () => {
             </Nav>
             </div>
             <div>
-            {/* <SearchBox></SearchBox> */}
+            <SearchBox></SearchBox>
             </div>
         </div>
     );
