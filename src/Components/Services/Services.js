@@ -17,7 +17,7 @@ const Services = () => {
         <CardGroup>
           <Card className="m-4 service">
             <Card.Img
-              style={{ width: 323, height: 220, alignItems: "center" }}
+              style={{ width: "100%", height: 235, margin:"auto", display:"block"}}
               variant="top"
               src={image1}
             />
@@ -33,7 +33,7 @@ const Services = () => {
           </Card>
           <Card className="m-4 service">
             <Card.Img
-              style={{ width: 323, height: 220, alignItems: "center" }}
+              style={{ width: "100%", height: 235, margin:"auto", display:"block"}}
               variant="top"
               src={image2}
             />
@@ -49,7 +49,7 @@ const Services = () => {
           </Card>
           <Card className="m-4 service">
             <Card.Img
-              style={{ width: 323, height: 220, alignItems: "center" }}
+              style={{ width: "100%", height: 235, margin:"auto", display:"block"}}
               variant="top"
               src={image3}
             />
@@ -67,7 +67,7 @@ const Services = () => {
         <CardGroup>
           <Card className="m-4 service">
             <Card.Img
-              style={{ width: 323, height: 220, alignItems: "center" }}
+              style={{ width: "100%", height: 235, margin:"auto", display:"block"}}
               variant="top"
               src={image4}
             />
@@ -83,7 +83,7 @@ const Services = () => {
           </Card>
           <Card className="m-4 service">
             <Card.Img
-              style={{ width: 323, height: 220, alignItems: "center" }}
+              style={{ width: "100%", height: 235, margin:"auto", display:"block"}}
               variant="top"
               src={image5}
             />
@@ -99,7 +99,7 @@ const Services = () => {
           </Card>
           <Card className="m-4 service">
             <Card.Img
-              style={{ width: 323, height: 220, alignItems: "center" }}
+              style={{ width: "100%", height: 235, margin:"auto", display:"block"}}
               variant="top"
               src={image6}
             />
