@@ -44,7 +44,9 @@ const Contact = () => {
                   aria-label="textarea"
                 />
               </InputGroup>
-              <Button className="button" variant="outline-dark">Send</Button>
+              <Button className="button" variant="outline-dark">
+                Send
+              </Button>
             </div>
           </Col>
 
