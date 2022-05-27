@@ -24,9 +24,6 @@ const Carousels = () => {
             <Carousel fade>
               <Carousel.Item>
                 <img className="d-block w-100" src={image1} alt="First slide" />
-                <Carousel.Caption>
-                  <h2 style={{ color: "#EF087A"}}>InstaGram</h2>
-                </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item>
                 <img
@@ -34,10 +31,6 @@ const Carousels = () => {
                   src={image2}
                   alt="Second slide"
                 />
-
-                <Carousel.Caption>
-                  <h2 style={{ color: "#EF087A"}}>Dribble</h2>
-                </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item>
                 <img className="d-block w-100" src={image3} alt="Third slide" />
@@ -47,9 +40,6 @@ const Carousels = () => {
               </Carousel.Item>
               <Carousel.Item>
                 <img className="d-block w-100" src={image4} alt="Third slide" />
-                <Carousel.Caption>
-                  <h2 style={{ color: "#EF087A"}}>FaceBook</h2>
-                </Carousel.Caption>
               </Carousel.Item>
             </Carousel>
           </Col>
