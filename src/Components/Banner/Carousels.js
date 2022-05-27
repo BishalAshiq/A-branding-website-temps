@@ -12,15 +12,15 @@ import image4 from "../../Images/Carousel/carousels-4.jpg";
 import SideMenuBar from "./SideMenuBar";
 const Carousels = () => {
   return (
-    <div>
-        <h1><span style={{color:"#D57008", marginTop:"40px"}}>Templates</span> Items</h1>
+    <div style={{marginTop: 100}}>
+        <h1 data-aos="zoom-in"><span style={{color:"#D57008", marginTop:"40px"}}>Templates</span> Items</h1>
       <Container className="mt-5 pb-5">
         <Row >
-          <Col sm={4}>
+          <Col sm={4} data-aos="zoom-in-right">
            <SideMenuBar></SideMenuBar>
           </Col>
 
-          <Col sm={8}>
+          <Col sm={8} data-aos="zoom-in-left">
             <Carousel fade>
               <Carousel.Item>
                 <img className="d-block w-100" src={image1} alt="First slide" />

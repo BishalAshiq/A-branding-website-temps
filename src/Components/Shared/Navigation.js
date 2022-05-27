@@ -1,7 +1,6 @@
 import React from 'react';
 import './Navigation.css';
 import SearchBox from '../Shared/SearchBox';
-import signIn from '../../Images/Sign In/Frame 3.png'
 import { Nav } from 'react-bootstrap';
 const Navigation = () => {
     return (

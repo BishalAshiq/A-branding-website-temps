@@ -14,7 +14,7 @@ const Contact = () => {
     <div>
       <Container className="mt-5 contacts">
         <Row className="pt-5">
-          <Col>
+          <Col data-aos="zoom-in-right">
             <div className="pt-5">
               <InputGroup className="mb-3">
                 <InputGroup.Text>First Name</InputGroup.Text>
@@ -50,7 +50,7 @@ const Contact = () => {
             </div>
           </Col>
 
-          <Col>
+          <Col data-aos="zoom-in-left">
             <img src={contact} alt="" />
           </Col>
         </Row>

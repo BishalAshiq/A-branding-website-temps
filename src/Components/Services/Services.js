@@ -11,13 +11,26 @@ import Carousels from "../Banner/Carousels";
 
 const Services = () => {
   return (
-    <div className="mt-5">
-      <h1>You <span style={{ color: "#AA5600"}}>Have to Need</span> These Items</h1>
+    <div
+      className="mt-5"
+      data-aos="fade-up"
+      data-aos-easing="linear"
+      data-aos-duration="2000"
+    >
+      <h1>
+        You <span style={{ color: "#AA5600" }}>Have to Need</span> These Items
+      </h1>
       <Container className="Services">
         <CardGroup>
           <Card className="m-4 service">
             <Card.Img
-              style={{ width: "100%", height: 235, margin:"auto", display:"block", borderTopBottomRadius:"20px"}}
+              style={{
+                width: "100%",
+                height: 235,
+                margin: "auto",
+                display: "block",
+                borderTopBottomRadius: "20px",
+              }}
               variant="top"
               src={image1}
             />
@@ -33,7 +46,13 @@ const Services = () => {
           </Card>
           <Card className="m-4 service">
             <Card.Img
-              style={{ width: "100%", height: 235, margin:"auto", display:"block", borderTopBottomRadius:"20px"}}
+              style={{
+                width: "100%",
+                height: 235,
+                margin: "auto",
+                display: "block",
+                borderTopBottomRadius: "20px",
+              }}
               variant="top"
               src={image2}
             />
@@ -49,7 +68,13 @@ const Services = () => {
           </Card>
           <Card className="m-4 service">
             <Card.Img
-              style={{ width: "100%", height: 235, margin:"auto", display:"block", borderTopBottomRadius:"20px"}}
+              style={{
+                width: "100%",
+                height: 235,
+                margin: "auto",
+                display: "block",
+                borderTopBottomRadius: "20px",
+              }}
               variant="top"
               src={image3}
             />
@@ -67,7 +92,13 @@ const Services = () => {
         <CardGroup>
           <Card className="m-4 service">
             <Card.Img
-              style={{ width: "100%", height: 235, margin:"auto", display:"block", borderTopBottomRadius:"20px"}}
+              style={{
+                width: "100%",
+                height: 235,
+                margin: "auto",
+                display: "block",
+                borderTopBottomRadius: "20px",
+              }}
               variant="top"
               src={image4}
             />
@@ -83,7 +114,13 @@ const Services = () => {
           </Card>
           <Card className="m-4 service">
             <Card.Img
-              style={{ width: "100%", height: 235, margin:"auto", display:"block", borderTopBottomRadius:"20px"}}
+              style={{
+                width: "100%",
+                height: 235,
+                margin: "auto",
+                display: "block",
+                borderTopBottomRadius: "20px",
+              }}
               variant="top"
               src={image5}
             />
@@ -99,7 +136,13 @@ const Services = () => {
           </Card>
           <Card className="m-4 service">
             <Card.Img
-              style={{ width: "100%", height: 235, margin:"auto", display:"block", borderTopBottomRadius:"20px"}}
+              style={{
+                width: "100%",
+                height: 235,
+                margin: "auto",
+                display: "block",
+                borderTopBottomRadius: "20px",
+              }}
               variant="top"
               src={image6}
             />

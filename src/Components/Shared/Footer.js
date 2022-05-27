@@ -2,7 +2,7 @@ import React from "react";
 import "./Footer.css";
 const Footer = () => {
   return (
-    <div>
+    <div data-aos="zoom-in">
       <section className="footer-section">
        <div className="footer">
        <div>
