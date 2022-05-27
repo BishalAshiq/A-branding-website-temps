@@ -6,13 +6,12 @@ import { Nav } from 'react-bootstrap';
 const Navigation = () => {
     return (
         <div>
-            <div className='nav'>
+            <div className='nav' data-aos="fade-right">
             <h1>BRANDING</h1>
-            <Nav className='routes'>
+            <Nav className='routes' data-aos="fade-left">
             <Nav.Item>
             <Nav.Link className='navLink' eventKey="sign In">Sign In</Nav.Link>
             </Nav.Item>
-            <img src={signIn} alt=""/>
             </Nav>
             </div>
             <div>

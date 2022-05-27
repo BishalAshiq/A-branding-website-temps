@@ -1,11 +1,12 @@
 import React from "react";
 import { Accordion, Container,} from "react-bootstrap";
+import './Accordions.css';
 
 const Accordions = () => {
   return (
     <div>
       <h1 className="mt-5"><span style={{color:"#D57008"}}>Ask</span> Anything You Want</h1>
-      <Container className="mt-5 pb-5">
+      <Container className="mt-5 pb-5 accordion-container">
         <Accordion defaultActiveKey={["0"]}>
           <Accordion.Item eventKey="0">
             <Accordion.Header>Want To Know About Us?</Accordion.Header>
